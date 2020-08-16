@@ -75,8 +75,9 @@ header {
 @media (max-width: 650px) {
   .logo {
     margin-top: 15px;
-    width: 100%;
-    position: relative;
+    width: 20%;
+    
+
   }
 }
 
@@ -98,8 +99,10 @@ header {
 }
 
 nav {
-
-  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+ 
+  font-weight: 550;
 }
 
 @media (max-width: 650px) {
@@ -126,6 +129,7 @@ nav > ul {
 
 @media (max-width: 650px) {
   nav > ul {
+    visibility: hidden;
     flex-direction: column;
   }
 }

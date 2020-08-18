@@ -154,12 +154,12 @@ nav > ul {
   width: 20vw;
   color: darkorange;
 }
-
+/*
 @media (max-width: 550px) {
   #features .icon {
     display: none;
   }
-}
+}*/
 
 #features .desc {
   display: flex;
